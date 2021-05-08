@@ -35,11 +35,7 @@ github:"Github"
 }
 ]
 
-
-
-
-
-  return (
+return (
     <body>
      <Nav />
      <Introsection />

@@ -1,5 +1,6 @@
 import React from 'react'
-import "./Nav.css"
+import JohnDoe from "../JohnDoe.jpg";
+import "./Nav.css";
 function Introsection() {
     return (
         <section id="intro-section" className="sperator">
@@ -7,7 +8,7 @@ function Introsection() {
         Hello , my name is <span className="text-important"> John Doe </span>,<br />
         and i make a horrible websites
       </h2>
-      <img src="./John-Doe.jpg" alt="john-doe" />
+      <img src={JohnDoe} alt="john-doe" />
     </section>
     )
 }
